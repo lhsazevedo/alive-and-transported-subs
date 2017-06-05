@@ -6,3 +6,5 @@ This repository aims to subtitle TobyMac's Alive and Transported concert.
 Feel free to fork this repository and work on new subtitle files in your own fork.
 Once you've completed at least a whole chapter subtitle file, feel free to open a pull
 request.
+
+[Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit) is recommended.
