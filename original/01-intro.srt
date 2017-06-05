@@ -13,5 +13,5 @@ The ignition
 4
 00:00:42,322 --> 00:00:48,851
 Turn on,
-Turn on...
+turn on...
 
