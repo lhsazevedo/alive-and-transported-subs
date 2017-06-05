@@ -1,6 +1,6 @@
 # Alive and Transported Subtitles
 
-This repository aims to subtitle and localize TobyMac's Alive and Transported concert.
+This repository aims to subtitle and localize [TobyMac's Alive and Transported](https://www.discogs.com/Toby-Mac-Alive-And-Transported/release/4992187) DVD concert.
 
 ## Contributing
 Feel free to open a pull request.
