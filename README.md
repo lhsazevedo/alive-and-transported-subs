@@ -13,10 +13,10 @@ This is the list of which chapters have and which chapters need subtitles.
 
 Chapter | Name | File | Subtitled | Reviewed
 :---: | --- | --- | :---: | :---:
-1 | Intro | `01-intro.srt` | |
-2 | Ignition | `02-ignition.srt` | |
-3 | Catchafire (Whoopsi-Daisy) | `03-catchafire-whoopsi-daisy.srt` | |
-4 | Boomin' | `04-boomin.srt` | |
+1 | Intro | `01-intro.srt` | ✓  | ✓ 
+2 | Ignition | `02-ignition.srt` | ✓ |
+3 | Catchafire (Whoopsi-Daisy) | `03-catchafire-whoopsi-daisy.srt` | nearly |
+4 | Boomin' | `04-boomin.srt` | nearly |
 5 | No Ordinary Love | `05-no-ordinary-love.srt` | |
 6 | J Train | `06-j-train.srt` | |
 7 | Gone | `07-gone.srt` | |
