@@ -1,0 +1,6 @@
+{
+    "require": {
+        "captioning/captioning": "^3.0",
+        "symfony/console": "^6.3"
+    }
+}
