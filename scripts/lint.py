@@ -25,15 +25,19 @@ srtstr = srt.parse(src)
 subs = []
 last_sub = None
 
+failure = False
+
 for sub in srtstr:
     if last_sub is not None:
         diff = sub.start - last_sub.end
 
         if (sub.start < last_sub.end):
+            Failure = True
             eprint(f'Invalid sub #{sub.index}: overlapping')
             last_sub.end = sub.start - CHAIN_GAP
         elif (diff < CHAIN_GAP_THERESHOLD):
             if (diff != CHAIN_GAP):
+                Failure = True
                 eprint(f'Invalid sub #{sub.index}: unchained ({int(diff.microseconds / 1000)}ms gap)')
                 last_sub.end = sub.start - CHAIN_GAP
 
@@ -43,3 +47,7 @@ for sub in srtstr:
 
 if args.fix:
     print(srt.compose(subs))
+elif failure:
+    sys.exit(1)
+
+sys.exit(0)
