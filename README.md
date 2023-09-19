@@ -6,7 +6,10 @@ This repository aims to subtitle and localize [TobyMac's Alive and Transported](
 
 ## Contributing
 Feel free to open a pull request.
-[Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit) is recommended.
+
+Recommended editors:
+- Windows: [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit)
+- Linux: [Subtitle Composer](https://subtitlecomposer.kde.org/)
 
 ## Subtitle Status
 This is the list of which chapters have and which chapters need subtitles.
